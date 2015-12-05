@@ -1,0 +1,6 @@
+{
+    "name": "lesaff/rssfeed",
+    "require": {
+		"simplepie/simplepie": "dev-master"
+    }
+}

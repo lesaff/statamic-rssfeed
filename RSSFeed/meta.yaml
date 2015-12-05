@@ -1,0 +1,18 @@
+name: RSS Feed
+version: 1.0.0
+url: http://github.com/lesaff/statamic-rssfeed
+developer: Rudy Affandi
+developer_url: http://github.com/lesaff
+description: RSS Feed Widget
+routes:
+  /: 
+    uses: getSettings
+    as: rssfeed.edit
+
+  save:
+    uses: saveSettings
+    as: rssfeed.save
+
+  edit:
+    uses: getSettings
+    as: rssfeed.edit
