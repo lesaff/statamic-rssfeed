@@ -1,8 +1,8 @@
-<?php namespace Statamic\Addons\RSSFeed;
+<?php namespace Statamic\Addons\Rssfeed;
 
 use Statamic\Extend\Widget;
 
-class RSSFeedWidget extends Widget
+class RssfeedWidget extends Widget
 {
     public function html()
     {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Statamic\Addons\RSSFeed;
+namespace Statamic\Addons\Rssfeed;
 
 use Statamic\Extend\Controller;
 use Statamic\API\Config;
 
-class RSSFeedController extends Controller
+class RssfeedController extends Controller
 {
     /**
      * The events to be listened for, and the methods to call.
